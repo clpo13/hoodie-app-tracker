@@ -2,12 +2,12 @@
 
 > Default Hoodie app
 
-[![Build Status](https://travis-ci.org/hoodiehq/hoodie-app-tracker.svg?branch=master)](https://travis-ci.org/hoodiehq/hoodie-app-tracker)
-[![Dependency Status](https://david-dm.org/hoodiehq/hoodie-app-tracker.svg)](https://david-dm.org/hoodiehq/hoodie-app-tracker)
-[![devDependency Status](https://david-dm.org/hoodiehq/hoodie-app-tracker/dev-status.svg)](https://david-dm.org/hoodiehq/hoodie-app-tracker#info=devDependencies)
+[![Build Status](https://travis-ci.org/clpo13/hoodie-app-tracker.svg?branch=master)](https://travis-ci.org/clpo13/hoodie-app-tracker)
+[![Dependency Status](https://david-dm.org/clpo13/hoodie-app-tracker.svg)](https://david-dm.org/clpo13/hoodie-app-tracker)
+[![devDependency Status](https://david-dm.org/clpo13/hoodie-app-tracker/dev-status.svg)](https://david-dm.org/clpo13/hoodie-app-tracker#info=devDependencies)
 
 Tracker is a simple Hoodie app, meant to be a starting point to play and build
-with Hoodie. Find the repository on [GitHub](https://github.com/hoodiehq/hoodie-app-tracker).
+with Hoodie. Find the repository on [GitHub](https://github.com/clpo13/hoodie-app-tracker).
 
 ## Requirements
 
@@ -19,7 +19,7 @@ node -v
 ## Setup
 
 ```
-git clone https://github.com/hoodiehq/hoodie-app-tracker.git
+git clone https://github.com/clpo13/hoodie-app-tracker.git
 cd hoodie-app-tracker
 npm install --production
 ```

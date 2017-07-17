@@ -3,13 +3,13 @@
   "description": "Default Hoodie app",
   "author": "The Hoodie Community | http://hood.ie/",
   "bugs": {
-    "url": "https://github.com/hoodiehq/hoodie-app-tracker/issues"
+    "url": "https://github.com/clpo13/hoodie-app-tracker/issues"
   },
   "engines": {
     "node": ">=4",
     "npm": ">=3"
   },
-  "homepage": "https://github.com/hoodiehq/hoodie-app-tracker",
+  "homepage": "https://github.com/clpo13/hoodie-app-tracker",
   "keywords": [
     "hoodie",
     "app"
@@ -17,7 +17,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoodiehq/hoodie-app-tracker.git"
+    "url": "https://github.com/clpo13/hoodie-app-tracker.git"
   },
   "scripts": {
     "pretest": "standard 'test/**/*.js'",

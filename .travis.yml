@@ -9,7 +9,7 @@ node_js:
 before_install:
   - docker version
   - docker run -d -p 127.0.0.1:5984:5984 klaemo/couchdb:1.6.1
-  - docker build -t hoodiehq/hoodie-app-tracker .
+  - docker build -t clpo13/hoodie-app-tracker .
   - npm install --global npm@3
   - npm prune
 before_script:
@@ -26,7 +26,7 @@ after_success:
   - npm run semantic-release
 deploy:
 - provider: script
-  script: docker login -e $DOCKER_EMAIL -u $DOCKER_USERNAME -p $DOCKER_PASSWORD && docker push hoodiehq/hoodie-app-tracker
+  script: docker login -e $DOCKER_EMAIL -u $DOCKER_USERNAME -p $DOCKER_PASSWORD && docker push clpo13/hoodie-app-tracker
   on:
     branch: master
 env:
